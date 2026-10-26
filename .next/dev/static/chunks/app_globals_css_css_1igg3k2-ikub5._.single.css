@@ -529,6 +529,10 @@
     gap: calc(var(--spacing) * 24);
   }
 
+  .gap-\[9px\] {
+    gap: 9px;
+  }
+
   .gap-\[28px\] {
     gap: 28px;
   }
@@ -564,6 +568,14 @@
     border-bottom-width: 1px;
   }
 
+  .border-\[\#2D4C65\] {
+    border-color: #2d4c65;
+  }
+
+  .border-\[border-\[\#2D4C65\]\] {
+    border-color: border-[#2d4c65];
+  }
+
   .border-gray-200 {
     border-color: var(--color-gray-200);
   }
@@ -572,8 +584,32 @@
     border-color: var(--color-gray-300);
   }
 
+  .bg-\[\#2D4C65\] {
+    background-color: #2d4c65;
+  }
+
+  .bg-\[\#040F31\] {
+    background-color: #040f31;
+  }
+
+  .bg-\[\#76C4F6\] {
+    background-color: #76c4f6;
+  }
+
   .bg-\[\#222A3B\] {
     background-color: #222a3b;
+  }
+
+  .bg-\[\#03111D\] {
+    background-color: #03111d;
+  }
+
+  .bg-\[\#102337\] {
+    background-color: #102337;
+  }
+
+  .bg-\[\#\] {
+    background-color: #;
   }
 
   .bg-gray-200 {
@@ -676,6 +712,10 @@
     color: var(--color-gray-600);
   }
 
+  .text-white {
+    color: var(--color-white);
+  }
+
   .antialiased {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -705,13 +745,13 @@
 }
 
 :root {
-  --background: #fff;
-  --foreground: #fff;
+  --background: #03111d;
+  --foreground: #03111d;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #fff;
+    --background: #03111d;
     --foreground: #fff;
   }
 }

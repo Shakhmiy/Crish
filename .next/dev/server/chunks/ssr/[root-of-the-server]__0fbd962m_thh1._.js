@@ -112,7 +112,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$Uv$2e$svg$2e$mjs__
 function Header() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "bg-gray-200 max-w-full shadow-lg",
+            className: "bg-[#040F31] max-w-full shadow-lg",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex container mx-auto items-center justify-between py-5 gap-10 gap-4 w-[1120px]",
                 children: [
@@ -127,7 +127,7 @@ function Header() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex text-gray-500 font-medium text-base gap-5 w-[546px] justify-start",
+                        className: "flex text-white font-medium text-base gap-5 w-[546px] justify-start",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "Главная"
@@ -157,7 +157,7 @@ function Header() {
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex flex-row bg-gray-300 justify-center rounded-xl w-[216px] h-[38px] gap-24",
+                        className: "flex flex-row bg-[#102337] border-[#2D4C65] border-1 justify-center rounded-xl w-[216px] h-[38px] gap-24",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "flex items-center text-gray-500",
@@ -279,8 +279,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$Logo$2e$svg__$28$s
 ;
 const __TURBOPACK__default__export__ = {
     src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$Logo$2e$svg__$28$static__in__ecmascript$2c$__tag__client$29$__["default"],
-    width: 93,
-    height: 20,
+    width: 94,
+    height: 38,
     blurWidth: 0,
     blurHeight: 0
 };
@@ -313,8 +313,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$Uv$2e$svg__$28$sta
 ;
 const __TURBOPACK__default__export__ = {
     src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$Uv$2e$svg__$28$static__in__ecmascript$2c$__tag__client$29$__["default"],
-    width: 24,
-    height: 26,
+    width: 23,
+    height: 23,
     blurWidth: 0,
     blurHeight: 0
 };
@@ -346,16 +346,16 @@ __turbopack_context__.n(createClientModuleProxy("[project]/node_modules/next/dis
 }),
 "[project]/public/Lg.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/Lg.32jjx_rhvlb9p.svg" + (globalThis["NEXT_CLIENT_ASSET_SUFFIX"] || ''));}),
+__turbopack_context__.v("/_next/static/media/Lg.1qwh6utv3xw73.svg" + (globalThis["NEXT_CLIENT_ASSET_SUFFIX"] || ''));}),
 "[project]/public/Logo.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/Logo.44_xg8kh6dzec.svg" + (globalThis["NEXT_CLIENT_ASSET_SUFFIX"] || ''));}),
+__turbopack_context__.v("/_next/static/media/Logo.1ljz-m1jpcww4.svg" + (globalThis["NEXT_CLIENT_ASSET_SUFFIX"] || ''));}),
 "[project]/public/Search.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
 __turbopack_context__.v("/_next/static/media/Search.22q7nui5nfd4x.svg" + (globalThis["NEXT_CLIENT_ASSET_SUFFIX"] || ''));}),
 "[project]/public/Uv.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/Uv.0-fmx0rt9elfm.svg" + (globalThis["NEXT_CLIENT_ASSET_SUFFIX"] || ''));}),
+__turbopack_context__.v("/_next/static/media/Uv.1dyvimi1rfos7.svg" + (globalThis["NEXT_CLIENT_ASSET_SUFFIX"] || ''));}),
 ];
 
 //# sourceMappingURL=%5Broot-of-the-server%5D__0fbd962m_thh1._.js.map
