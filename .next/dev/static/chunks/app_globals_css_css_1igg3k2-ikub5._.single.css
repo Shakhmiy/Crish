@@ -38,10 +38,8 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-gray-200: #e5e7eb;
-    --color-gray-300: #d1d5dc;
     --color-gray-400: #99a1af;
     --color-gray-500: #6a7282;
-    --color-gray-600: #4a5565;
     --color-gray-700: #364153;
     --color-black: #000;
     --color-white: #fff;
@@ -69,10 +67,8 @@
   @supports (color: lab(0% 0 0)) {
     :root, :host {
       --color-gray-200: lab(91.6229% -.159085 -2.26791);
-      --color-gray-300: lab(85.1236% -.612259 -3.7138);
       --color-gray-400: lab(65.9269% -.832707 -8.17474);
       --color-gray-500: lab(47.7841% -.393212 -10.0268);
-      --color-gray-600: lab(35.6337% -1.58697 -10.8425);
       --color-gray-700: lab(27.1134% -.956401 -12.3224);
     }
   }
@@ -572,22 +568,6 @@
     border-color: #2d4c65;
   }
 
-  .border-\[border-\[\#2D4C65\]\] {
-    border-color: border-[#2d4c65];
-  }
-
-  .border-gray-200 {
-    border-color: var(--color-gray-200);
-  }
-
-  .border-gray-300 {
-    border-color: var(--color-gray-300);
-  }
-
-  .bg-\[\#2D4C65\] {
-    background-color: #2d4c65;
-  }
-
   .bg-\[\#040F31\] {
     background-color: #040f31;
   }
@@ -596,32 +576,8 @@
     background-color: #76c4f6;
   }
 
-  .bg-\[\#222A3B\] {
-    background-color: #222a3b;
-  }
-
-  .bg-\[\#03111D\] {
-    background-color: #03111d;
-  }
-
   .bg-\[\#102337\] {
     background-color: #102337;
-  }
-
-  .bg-\[\#\] {
-    background-color: #;
-  }
-
-  .bg-gray-200 {
-    background-color: var(--color-gray-200);
-  }
-
-  .bg-gray-300 {
-    background-color: var(--color-gray-300);
-  }
-
-  .bg-white {
-    background-color: var(--color-white);
   }
 
   .p-2 {
@@ -708,10 +664,6 @@
     color: var(--color-gray-500);
   }
 
-  .text-gray-600 {
-    color: var(--color-gray-600);
-  }
-
   .text-white {
     color: var(--color-white);
   }
@@ -752,7 +704,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #03111d;
-    --foreground: #fff;
+    --foreground: #03111d;
   }
 }
 

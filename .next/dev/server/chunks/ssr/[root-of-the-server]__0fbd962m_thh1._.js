@@ -346,16 +346,16 @@ __turbopack_context__.n(createClientModuleProxy("[project]/node_modules/next/dis
 }),
 "[project]/public/Lg.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/Lg.1qwh6utv3xw73.svg" + (globalThis["NEXT_CLIENT_ASSET_SUFFIX"] || ''));}),
+__turbopack_context__.v("/_next/static/media/Lg.2x0nun9ziiyth.svg" + (globalThis["NEXT_CLIENT_ASSET_SUFFIX"] || ''));}),
 "[project]/public/Logo.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/Logo.1ljz-m1jpcww4.svg" + (globalThis["NEXT_CLIENT_ASSET_SUFFIX"] || ''));}),
+__turbopack_context__.v("/_next/static/media/Logo.1fp9pgadnfv4s.svg" + (globalThis["NEXT_CLIENT_ASSET_SUFFIX"] || ''));}),
 "[project]/public/Search.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/Search.22q7nui5nfd4x.svg" + (globalThis["NEXT_CLIENT_ASSET_SUFFIX"] || ''));}),
+__turbopack_context__.v("/_next/static/media/Search.153jpua9y5r4d.svg" + (globalThis["NEXT_CLIENT_ASSET_SUFFIX"] || ''));}),
 "[project]/public/Uv.svg (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.v("/_next/static/media/Uv.1dyvimi1rfos7.svg" + (globalThis["NEXT_CLIENT_ASSET_SUFFIX"] || ''));}),
+__turbopack_context__.v("/_next/static/media/Uv.2ip94_-rabf98.svg" + (globalThis["NEXT_CLIENT_ASSET_SUFFIX"] || ''));}),
 ];
 
 //# sourceMappingURL=%5Broot-of-the-server%5D__0fbd962m_thh1._.js.map

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Rzz from "@/public/Rzz.svg"
+import Rzz from "@/public/rzz.svg"
 import Email from "@/public/mail.svg"
 import Global from "@/public/globe.svg"
 import Inst from "@/public/instagram.svg"

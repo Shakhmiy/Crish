@@ -1,3 +1,6 @@
 {
+  "/Repost/page": "app/Repost/page.js",
+  "/Star/page": "app/Star/page.js",
+  "/Video/page": "app/Video/page.js",
   "/page": "app/page.js"
 }

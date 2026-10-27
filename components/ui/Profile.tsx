@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import Avatar from "@/public/Avatar.svg"
-import Settings from "@/public/Settings.svg"
+import Settings from "@/public/settings.svg"
 import Share from "@/public/share.svg"
-import Pens from "@/public/Pens.svg"
+import Pens from "@/public/pens.svg"
 import ac from "@/public/ac.svg"
 
 

@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Share from "@/public/share.svg"   
 import Heart from "@/public/heart.svg"
-import Grid from "@/public/Grid.svg"
+import Grid from "@/public/grid.svg"
 import Oes from "@/public/Oes.svg"
 import Doc from "@/public/Doc.svg"
 import Star from "@/public/star.svg"
@@ -13,7 +13,7 @@ import p4 from "@/public/jers.png"
 import message from "@/public/message.svg"
 
 
-export default function CardContent() {
+export default function Content() {
   return (
         <div className="flex flex-col border-[#2D4C65] border-2 rounded-xl w-[680px] p-4 gap-[28px]">
           <div className="flex flex-row gap-5 border-[#2D4C65] border-b">
@@ -25,30 +25,36 @@ export default function CardContent() {
                   alt="logo" />
               <p className="text-base font-semibold text-gray-400">Все посты</p>
             </div>
-            <div className="flex flex-row gap-2  items-center  hover:bg-gray-200">
-              <Image
-                  src={Oes}
-                  width={20}
-                  height={20}
-                  alt="logo" />
-              <p className="text-base font-medium text-gray-400  items-center">Видео</p>
-            </div>
-            <div className="flex flex-row gap-2  items-center  hover:bg-gray-200">
-              <Image
-                  src={Doc}
-                  width={20}
-                  height={20}
-                  alt="logo" />
-              <p className="text-base font-medium text-gray-400">Репосты</p>
-            </div>
-            <div className="flex flex-row gap-2  items-center  hover:bg-gray-200">
-              <Image
-                  src={Star}
-                  width={20}
-                  height={20}
-                  alt="logo" />
-              <p className="text-base font-medium  text-gray-400">Избранное</p>
-            </div>
+            <Link href="/Video">
+                <div className="flex flex-row gap-2  items-center  hover:bg-gray-200">
+                <Image
+                    src={Doc}
+                    width={20}
+                    height={20}
+                    alt="logo" />
+                <p className="text-base font-medium text-gray-400  items-center">Видео</p>
+                </div>
+            </Link>
+            <Link href="/Repost">
+              <div className="flex flex-row gap-2  items-center  hover:bg-gray-200">
+                <Image
+                    src={Oes}
+                    width={20}
+                    height={20}
+                    alt="logo" />
+                <p className="text-base font-medium text-gray-400">Репосты</p>
+              </div>
+            </Link>
+            <Link href="/Star">
+                <div className="flex flex-row gap-2  items-center  hover:bg-gray-200">
+                <Image
+                    src={Star}
+                    width={20}
+                    height={20}
+                    alt="logo" />
+                <p className="text-base font-medium  text-gray-400">Избранное</p>
+                </div>
+            </Link>
           </div>
 
 
